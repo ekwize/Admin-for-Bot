@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "admin-bot"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Ulanov <ulanovsega@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+fastapi = "^0.111.0"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+aiogram = "^3.6.0"
+SQLAlchemy = "^2.0.30"
+passlib = "^1.7.4"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+redis = "^5.0.4"
+websockets = "^12.0"
+python-socketio = "^5.11.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
